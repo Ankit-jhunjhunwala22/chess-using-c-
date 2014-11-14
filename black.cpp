@@ -1,7 +1,7 @@
 #include "black.h"
 extern Base *chessboard[8][8];
 int black::whiteclasscount=16;
-int black::typeofplayer=0;//using 0 so as  sign to indicate black player
+int black::typeofplayer=1;//using 0  as  sign to indicate black player
 int black::checkbit=0;
 int black::getcheckbit()
 {
